@@ -1,0 +1,53 @@
+.main_div.first_header{ 
+    background-color:brown;    
+}    /*Ancaq bu 2 klassa sahib olan teqlərə şamil olundu  */
+
+div, p{
+    font-size: large;
+} /* bu teqlərin hamısına şamil olundu */
+
+div>p{
+    color: blue;
+} /* divin daxilində olan butun p-lərə şamil olundu */
+
+div+p{
+    color: red;
+} /* div-dən sonra gələn ilk p elementə şamil olundu */
+
+[title~=red] {
+    background-color: yellow;
+  }  /* red title-na malik bütün elementlərə şamil olunur */
+
+
+  div[class$="example"] {
+    background-color: violet;
+  }  /* div teqində olan və class-ında "example" sözü olan bütün elementlərə şamil olundu */
+
+  a:active {
+    background-color: black;
+  } /* daxil olduğumuz a teqindəki linkin arxa fonunu qeyd etdiyim rəng edir */
+
+  input:checked {
+    height: 50px;
+    width: 50px;
+  } /* basdığımız radio-ya şamil olunur */
+ 
+  input[type=text]:disabled {
+    background: black;
+  } /* disabled verdiyimiz bütün input-u text olanlara şamil olunur */
+
+  p:first-child {
+    background-color: blue;
+  } /* öz parentindən sonra gələn ilk p elementə şamil olunur */
+
+  a:hover {
+    background-color: black;
+  }  /* Bütün a teqlərindəki elementlərə mouse-u yaxınlaşdırdığımız zaman işə düşür */
+
+  p:last-child {
+    background-color:black;
+  }/* öz parentindən sonra gələn ən sonuncu p elementinə şamil olunur */
+
+  a:visited {
+    background-color: black;
+  } /* artıq daxil olduğumuz a teqindəki linklərə şamil olunur */
